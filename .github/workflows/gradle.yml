@@ -17,6 +17,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    container:
+      image: docker://augustostdy/pratica06:webapp-gcms
     permissions:
       contents: read
 
